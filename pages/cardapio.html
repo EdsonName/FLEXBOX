@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Pizzas</title>
+    <link rel="stylesheet" href="style_cardapio.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pizzaria Avallone</h1>
+    </header>
+    <main>
+        <section class="sabores">
+            <h2>Sabores</h2>
+            <form action="#">
+                <ul>
+                    <li>
+                        <input type="radio" name="pizza" id="pizza-marguerita" value="marguerita" checked>
+                        <label for="pizza-marguerita">Marguerita</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="pizza" id="pizza-calabresa" value="calabresa">
+                        <label for="pizza-calabresa">Calabresa</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="pizza" id="pizza-doce-brigadeiro" value="doce-brigadeiro">
+                        <label for="pizza-doce-brigadeiro">Brigadeiro</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="pizza" id="pizza-doce-prestígio" value="doce-prestígio">
+                        <label for="pizza-doce-prestígio">Prestígio</label>
+                    </li>
+                </ul>
+                <div class="opcoes">
+                    <h3>Opções</h3>
+                    <div class="massa"><br>
+                        <h4>Massa</h4>
+                        <ul>
+                            <li><input type="radio" name="massa" id="massa-tradicional" value="tradicional" checked>
+                                <label for="massa-tradicional">Tradicional</label></li>
+                            <li><input type="radio" name="massa" id="massa-integral" value="integral"> <label
+                                    for="massa-integral">Integral</label></li>
+                        </ul>
+                    </div>
+                    <div class="borda">
+                        <h4>Borda</h4>
+                        <ul>
+                            <li><input type="radio" name="borda" id="borda-tradicional" value="tradicional" checked>
+                                <label for="borda-tradicional">Tradicional (sem recheio)</label></li>
+                            <li><input type="radio" name="borda" id="borda-catupiry" value="catupiry"> <label
+                                    for="borda-catupiry">Catupiry</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="adicionar-carrinho">
+                    <i class="fas fa-cart-plus"></i>
+                    Adicionar ao Carrinho
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Pizzaria Avallone</p>
+    </footer>
+</body>
+
+</html>

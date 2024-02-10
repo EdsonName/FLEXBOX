@@ -1,0 +1,122 @@
+/* Estilo geral */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sabores li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Header */
+
+header {
+    background-color: #007777;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seções */
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Lista de Sabores */
+
+.sabores {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sabores li {
+    width: 33.33%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sabores li img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sabores li h3 {
+    margin-top: 0;
+}
+
+.sabores li button {
+    margin-top: 10px;
+    background-color: #007777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formulário e inputs */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sabores li label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Opções adicionais */
+
+.opcoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoes div {
+    width: 48%;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+/* Botão de adicionar ao carrinho */
+
+.adicionar-carrinho {
+    margin-top: 20px;
+    background-color: #007777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para diferentes sabores */
+
+.sabores li:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Personalize com os estilos desejados para outros elementos */
+
+/* ... */

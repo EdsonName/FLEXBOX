@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Avallone</title>
+    <link rel="stylesheet" href="style_index.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html"><img src="/assets/logo_tablets.png" alt="Logo da Pizzaria"></a>
+            <h1>Pizzaria Avallone</h1>
+            <ul class="nav">
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="meu carrinho.html">Carrinho</a></li>
+                <li><a href="loja.html">Cadastro</a></li>
+                <li><a href="loging.html">Loging</a></li>
+                <li><a href="sobre.html">sobre</a></li>
+            </ul>
+        </div>  
+    </header>
+    <main>
+        <section class="banner">
+            <img src="/assets/img_0001.jpg" alt="Banner da Pizzaria">
+            <h2>Experimente a melhor pizza da cidade!</h2>
+            <p>Nossa massa é leve e crocante, e nossos ingredientes são frescos e de alta qualidade.</p>
+            <a href="/pages/cardapio.html" class="botao">Veja nosso cardápio</a>
+        </section>
+        <section class="destaques">
+            <h2>Destaques do cardápio</h2>
+            <ul>
+                <li>
+                    <img src="/assets/produtos/pizzas/Pizza_Marguerita_01.png" alt="Pizza 1">
+                    <h3>Pizza Marguerita</h3>
+                    <p>Tradicional pizza italiana com Molho de tomate, mussarela, tomate, manjericão e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+                <li>
+                    <img src="/assets/produtos/pizzas/img_0004.jpg" alt="Pizza 2">
+                    <h3>Pizza Pepperoni</h3>
+                    <p>Pizza com molho de tomate, mussarela de búfala, pepperoni e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+                <li>
+                    <img src="pizza3.jpg" alt="Pizza 3">
+                    <h3>Pizza Quatro Queijos</h3>
+                    <p>Pizza com molho de tomate, mussarella, gorgonzola, provolone, parmesão e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+                <li>
+                    <img src="pizza3.jpg" alt="Pizza 3">
+                    <h3>Pizza Calabresa</h3>
+                    <p>Pizza com molho de tomate, mussarela, Calabresa e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+                <li>
+                    <img src="pizza3.jpg" alt="Pizza 3">
+                    <h3>Pizza frango ao Catupiry</h3>
+                    <p>Pizza com molho de tomate, mussarela, franco desfiado, Catupiry e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+                <li>
+                    <img src="pizza3.jpg" alt="Pizza 3">
+                    <h3>Pizza Napolitana</h3>
+                    <p>Pizza com Molho de tomate, mussarela, presunto, tomate e orégano.</p>
+                    <button class="adicionar-carrinho">
+                        <i class="fas fa-cart-plus"></i>
+                        Adicionar ao Carrinho
+                    </button>
+                </li>
+        </section>
+        <section class="sobre">
+            <h2>Sobre a Pizzaria</h2>
+            <p>A Pizzaria Pizzaria Avallone foi fundada em 2013 com o objetivo de oferecer pizzas de alta qualidade
+                aos seus clientes.</p>
+            <p>Trabalhamos com ingredientes frescos e de alta qualidade, e nossa massa é feita com um fermento especial
+                que a deixa leve e crocante.</p>
+            <p>Oferecemos uma variedade de pizzas para todos os gostos, desde pizzas tradicionais até pizzas mais
+                criativas.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024 - Pizzaria Avallone</p>
+        <ul>
+            <li><a href="https://www.facebook.com/pizzaria_avallone"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/pizzaria_avallone"><img src="instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </footer>
+
+<!--SCRIPTS JAVASCRIPT-->
+<script>
+    const header = document.querySelector('header');
+        const conteudo = document.querySelector('.conteudo');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 0) {
+                header.classList.add('scrolled');
+                conteudo.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+                conteudo.classList.remove('scrolled');
+            }
+        });
+</script>
+</body>
+
+</html>

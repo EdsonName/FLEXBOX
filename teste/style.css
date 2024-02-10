@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#borda {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: rgb(255, 217, 0);
+}
+
+.tipo-massa {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tipo-massa p {
+    margin-bottom: 5px;
+}
+
+.tipo-massa label {
+    margin-right: 10px;
+}
+
+.tipo-massa input {
+    margin-right: 5px;
+}
+
+.tipo-massa input:hover {
+    background-color: #f0f0f0;
+}
+
+.tipo-massa input:focus {
+    outline: none;
+    border: 1px solid #000;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 1em 1em;
+}
